@@ -1,0 +1,25 @@
+{
+  "name": "twinstagr.am",
+  "version": "0.0.1",
+  "description": "real-time twitter/instagram moderation app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Fudge",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.0.0-rc3",
+    "body-parser": "~1.0.0",
+    "method-override": "~1.0.0",
+    "socket.io": "~0.9.16",
+    "instagram-node-lib": "~0.1.1",
+    "request": "~2.34.0",
+    "neo4j": "~1.1.0",
+    "node-twitter-api": "~1.1.3",
+    "url": "~0.7.9",
+    "crypto": "0.0.3",
+    "errorhandler": "~1.0.0",
+    "eventemitter2": "~0.4.13"
+  }
+}
